@@ -95,10 +95,10 @@ PM_START_TEXT = """
 ๏𝙽𝙾 𝙿𝚁𝙾𝙼𝙾 & 𝙰𝙳𝚂
 ๏𝙰𝙳𝚅𝙰𝙽𝙲𝙴 & 𝚄𝚂𝙴𝙵𝚄𝙻 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂
 ๏𝙼𝚄𝚂𝙸𝙲 𝙿𝙻𝙰𝚈 𝙵𝙴𝙰𝚃𝚄𝚁𝙴𝚂
-๏𝚅𝙸𝚂𝙸𝚃 @TG\_FRIENDSS 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴...
+๏𝚅𝙸𝚂𝙸𝚃 @VipFreinds 𝙵𝙾𝚁 𝙼𝙾𝚁𝙴...
 ๏───────────────────────๏
 
-⏤͟͟͞͞•𓊈𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 🐰@THE\_VIP\_BOY⛦⃕͜🇮🇳𓊉
+⏤͟͟͞͞•𓊈𝐏𝐨𝐰𝐞𝐫𝐞𝐝 𝐁𝐲 @its_Me_SakiL𓊉
 
 
 """
@@ -107,22 +107,22 @@ buttons = [
     [
         InlineKeyboardButton(
             text="★ 𝐀𝐝𝐝 𝐌𝐞 𝐌𝐨𝐢 𝐋𝐮𝐯 ★ ",
-            url=f"https://t.me/TG_MANAGER_ROBOT?startgroup=true",
+            url=f"https://t.me/@Sakil_XMusic_bot?startgroup=true",
         ),
     ],
     [
-        InlineKeyboardButton(text="🍁𝐆𝐑𝐎𝐔𝐏🍁", url=f"https://t.me/Tg_Friendss"),
+        InlineKeyboardButton(text="🍁𝐆𝐑𝐎𝐔𝐏🍁", url=f"https://t.me/VipFreinds"),
         InlineKeyboardButton(text="⚙️𝐇𝐄𝐋𝐏⚙️", callback_data="help_back"),
     ],
     [
         
-        InlineKeyboardButton(text="🌷𝐎𝐰𝐧𝐞𝐫🌷", url=f"https://t.me/THE_VIP_BOY"),
-        InlineKeyboardButton(text="🥀𝐎𝐅𝐅𝐈𝐂𝐄🥀", url=f"https://t.me/vip_creators"),
+        InlineKeyboardButton(text="🌷𝐎𝐰𝐧𝐞𝐫🌷", url=f"https://t.me/its_Me_SakiL"),
+        InlineKeyboardButton(text="🥀𝐎𝐅𝐅𝐈𝐂𝐄🥀", url=f"https://t.me/testing007008"),
     ],
     [
         InlineKeyboardButton(
             text="🌱𝐒𝐎𝐔𝐑𝐂𝐄🌱",
-            url=f"https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+            url=f"https://t.me/its_Me_SakiL",
         ),
     ],
 ]
@@ -142,7 +142,7 @@ HELP_STRINGS = f"""
 
 
 
-𝐘𝐄𝐇❤️𝐉𝐎𝐈𝐍❤️𝐊𝐑❤️𝐋𝐎❤️𝐘𝐀𝐀𝐑𝐀 ➪ [🔥『TG FRIENDS』🔥](https://t.me/TG_FRIENDSS)
+𝐘𝐄𝐇❤️𝐉𝐎𝐈𝐍❤️𝐊𝐑❤️𝐋𝐎❤️𝐘𝐀𝐀𝐑𝐀 ➪ [🔥『🪸⃟🇱𝐄𝐓'𝐒🇨‌𝐇𝐀𝐓𝐒 🪸⃟🇬‌𝐔𝐘𝐒^⃝⃪⃯』🔥](https://t.me/VipFreinds)
                    
 
 
@@ -408,7 +408,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 [
                     [
                         InlineKeyboardButton(
-                            text="sᴜᴩᴩᴏʀᴛ", callback_data="fallen_support"
+                            text="sᴜᴩᴩᴏʀᴛ", callback_data="VipFreinds"
                         ),
                         InlineKeyboardButton(
                             text="ᴄᴏᴍᴍᴀɴᴅs", callback_data="help_back"
@@ -429,7 +429,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                 ]
             ),
         )
-    elif query.data == "fallen_support":
+    elif query.data == "https://t.me/VipFreinds":
         query.message.edit_text(
             text="*๏ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʙᴜᴛᴛᴏɴs ɢɪᴠᴇɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ʜᴇʟᴩ ᴀɴᴅ ᴍᴏʀᴇ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴀʙᴏᴜᴛ ᴍᴇ.*"
             f"\n\nɪғ ʏᴏᴜ ғᴏᴜɴᴅ ᴀɴʏ ʙᴜɢ ɪɴ {BOT_NAME} ᴏʀ ɪғ ʏᴏᴜ ᴡᴀɴɴᴀ ɢɪᴠᴇ ғᴇᴇᴅʙᴀᴄᴋ ᴀʙᴏᴜᴛ ᴛʜᴇ {BOT_NAME}, ᴩʟᴇᴀsᴇ ʀᴇᴩᴏʀᴛ ɪᴛ ᴀᴛ sᴜᴩᴩᴏʀᴛ ᴄʜᴀᴛ.",
@@ -450,7 +450,7 @@ def Fallen_about_callback(update: Update, context: CallbackContext):
                         ),
                         InlineKeyboardButton(
                             text="ɢɪᴛʜᴜʙ",
-                            callback_data="https://github.com/THE-VIP-BOY-OP/VIP-ROBOT",
+                            callback_data="https://t.me/its_Me_SakiL",
                         ),
                     ],
                     [
@@ -744,7 +744,7 @@ def donate(update: Update, context: CallbackContext):
             DONATE_STRING, parse_mode=ParseMode.MARKDOWN, disable_web_page_preview=True
         )
 
-        if OWNER_ID != 1356469075 and DONATION_LINK:
+        if OWNER_ID != 1172640079 and DONATION_LINK:
             update.effective_message.reply_text(
                 f"» ᴛʜᴇ ᴅᴇᴠᴇʟᴏᴩᴇʀ ᴏғ {BOT_NAME} sᴏʀᴄᴇ ᴄᴏᴅᴇ ɪs [ᴀɴᴏɴʏᴍᴏᴜs](https://t.me/anonymous_was_bot)."
                 f"\n\nʙᴜᴛ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴅᴏɴᴀᴛᴇ ᴛᴏ ᴛʜᴇ ᴩᴇʀsᴏɴ ᴄᴜʀʀᴇɴᴛʟʏ ʀᴜɴɴɪɴɢ ᴍᴇ : [ʜᴇʀᴇ]({DONATION_LINK})",
